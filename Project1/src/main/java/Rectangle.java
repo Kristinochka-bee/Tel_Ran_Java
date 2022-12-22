@@ -29,14 +29,14 @@ public class Rectangle implements Figure2D {
 
     @Override
     public double calculatePerimetr() {
-
-
-        return 0;
+        double P = 2 *(baseSide + side);
+        return P;
     }
 
     @Override
     public double calculateArea() {
-        return 0;
+        double S = baseSide * side;
+        return S;
     }
 
     @Override

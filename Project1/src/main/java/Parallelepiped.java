@@ -1,6 +1,7 @@
 public class Parallelepiped extends Rectangle{
     private double height;
 
+
     public Parallelepiped (){
 
     }
@@ -20,7 +21,8 @@ public class Parallelepiped extends Rectangle{
 
     @Override
     public double calculateArea() {
-        return super.calculateArea();
+        double S = 2 * (getBaseSide() * getSide() + getBaseSide()* getHeight() + getSide() * getHeight());
+        return S;
     }
 
     @Override

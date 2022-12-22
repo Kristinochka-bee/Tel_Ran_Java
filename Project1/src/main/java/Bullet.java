@@ -1,6 +1,7 @@
 public class Bullet extends Circle{
 
     private double radius;
+
     public Bullet() {
     }
 
@@ -11,8 +12,8 @@ public class Bullet extends Circle{
 
 
     public double calculateVolume() {
-
-        return super.calculateArea();
+        double bullVolume= 4 * Math.PI * radius * radius * radius / 3;
+        return bullVolume;
     }
 
     @Override
