@@ -5,8 +5,7 @@ import java.util.Arrays;
 public class Massiv {
     public static void main(String[] args) {
 
-        System.out.println(Arrays.toString(Massiv.deleteElementFromArray(new int[]{4,5,7,-3,7,8},7)));
-
+        //System.out.println(Arrays.toString(Massiv.deleteElementFromArray(new int[]{4,5,7,-3,7,8},7)));
 
     }
 
@@ -22,4 +21,5 @@ public class Massiv {
         }
         return Arrays.copyOf(arr,arr.length - counter);
     }
+
 }
