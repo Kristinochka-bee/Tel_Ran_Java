@@ -78,12 +78,12 @@ public  class Brackets {
             }
 
         }
+/*
         if (!stack.isEmpty()){  //если стек оказался не пустой, тогда это значит , что в стеке есть несихронизированная скобка
             flag= false;
         }
 
-
-
+ */
 
         return flag;
     }
